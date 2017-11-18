@@ -1,0 +1,226 @@
+body{
+	font-family: 'Roboto',sans-serif;
+}
+[class*=column]{
+	/*background-color: pink;*/
+}
+.small-device{
+	visibility: hidden;
+}
+nav{
+	text-align: center;
+	background-color: rgba(0,0,0,0.8);
+	padding-top: 1em;
+	padding-bottom: 1em;
+	position: fixed;
+	width: 100%;
+	top:0;
+	opacity: 0.95;
+	z-index: 2;
+}
+nav a{
+	text-decoration: none;
+	color: white;
+	font-size: 13px;
+}
+nav a:hover{
+	color: #858585;
+}
+.title{
+	font-size: 45px;
+	text-align: center;
+	padding-top: 5%;
+	margin-bottom: 0;
+	color: black;
+}
+.iphone-x{
+	margin-bottom: 8em;
+	margin-top: 6em;
+}
+.slogan{
+	text-align: center;
+	margin:0;
+	font-weight: lighter;
+	font-size: 23px;
+	padding-top: 0.5em;
+	color: #33333F;
+}
+#horizontal-iphone{
+	width:70%;
+	margin-left: 15%;
+	margin-top: 7%;
+}
+.iphone-8{
+	background-color: #F9F0EB;
+}
+img#iphone-8{
+	width: 100%;
+	transform: scale(1.1);
+	padding-top: 5%;
+}
+#series-3-font{
+	text-align: center;
+	color: #CF2A2A;
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+.series-3 img{
+	width: 70%;
+	margin-left: 15%;
+}
+
+.computers h1,
+.music h1{
+	font-size: 35px;
+	letter-spacing: 0em;
+	font-weight: 500;
+}
+.computers p,
+.music p{
+	font-size: 18px;
+	letter-spacing: 0em;
+}
+.computers img{
+	width: 100%;
+	transform: scale(1.1);
+	margin-top: 3em;
+}
+img#right{
+	transform: scale(0.9);
+	margin-top: 8em;
+}
+.music span{
+	font-weight: bold;
+}
+.right-col{
+	background-color: #CFCFCF;
+	color: #333333;
+}
+.music .right-col h1{
+	color: #333333;
+}
+.music .slogan{
+	font-size: 21px;
+	font-weight: 400;
+}
+.music .right-col .slogan{
+	color: black;
+}
+.music .right-col img{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 5%;
+	margin-bottom: 8%;
+}
+.music .left-col img{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 5%;
+	border: 5px solid #1B1B1B;
+}
+.music .left-col{
+	background: red; /* For browsers that do not support gradients */    
+    background: -webkit-radial-gradient(#010409, #070D19, #010101); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#010409, #070D19, #010101); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#010409, #070D19, #010101); /* For Firefox 3.6 to 15 */
+    background: radial-gradient( #010409, #070D19, #010101); /* Standard syntax (must be last) */
+}
+.music .left-col{
+	padding-bottom: 11%;
+}
+.music .left-col .title,
+.music .left-col .slogan{
+	color: white;
+}
+
+.extra .left-col img{
+	width: 80%;
+	margin-left: 10%;
+}
+.extra .right-col img{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10%;
+}
+.extra .right-col{
+	background-color: white;
+}
+.links{
+	margin-top: 3em;
+}
+.links ul{
+	list-style: none;
+	padding-left: 0;
+}
+.links a,
+.links b,
+.visit p,
+.final {
+	text-decoration: none;
+	color: #333333;
+	font-size: 12px;
+}
+.links a:hover{
+	text-decoration: underline;
+}
+.visit a{
+	text-decoration: none;
+}
+.visit a:hover{
+	text-decoration: underline;
+}
+.final p,
+.final span{
+	padding:0;margin:0;
+}
+.final p{
+	color: #989898;
+}
+.final a{
+	border-right: 1px solid #333333;
+	padding: 0 1em 0 1em;
+}
+.final span:last-child{
+	border: 0px;
+}
+.final a{
+	color: #333333;
+	float: right;
+	text-decoration: none;
+}
+.final a:hover{
+	text-decoration: underline;
+}
+.visit{
+	padding:0;
+	margin: 0;
+}
+.visit p{
+	margin-bottom: 0px;
+	line-height: 0;
+	color: #989898;
+
+}
+.visit [class*=column]{
+	border-bottom: 1px solid #989898;
+}
+.final [class*=column]{
+	padding-top: 0.5em;
+}
+
+footer{
+	background-color: #F2F2F2;
+	padding-bottom: 1em;
+}
+
+@media screen and (max-width: 550px){
+	.links{
+		text-align: center;
+	}
+	nav{
+		visibility: hidden;
+	}
+	.small-device{
+		visibility: visible;
+	}
+}
