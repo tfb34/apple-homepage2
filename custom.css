@@ -126,9 +126,6 @@ body{
 body{
 	font-family: 'Roboto',sans-serif;
 }
-[class*=column]{
-	/*background-color: pink;*/
-}
 .small-device{
 	visibility: hidden;
 }
